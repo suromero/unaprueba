@@ -1,0 +1,98 @@
+:root {
+    --aguamarina: #28E5C9;
+    --morado: #7837DD;
+    --verde: #DBDA48;
+    --gris: #A8A7AD;
+    --oscuro: #666666;
+}
+
+* {
+   font-family: PolyglotFont; 
+}
+
+h1 {
+    font-family: "Poly";
+    letter-spacing: 3px;
+}
+
+@font-face {
+    font-family: PolyglotFont; 
+    src: url("fonts/MuseoSans_500.otf") format("opentype"); 
+}
+
+@font-face {
+    font-family: Poly; 
+    src: url("fonts/DPSDbeyond.otf") format("opentype"); 
+}
+
+body {
+    background-image: url("img/stain1.svg"), url("img/logo.svg"), url("img/stain4.svg");
+    background-position: right top, 6% 4%, 70% 20%;
+    background-repeat: no-repeat;
+    background-size: 32%, 10%, 18%;
+    background-color: black;
+    margin: 0;
+}
+
+.slogan {
+    font-size: 22px;
+    color: var(--gris);
+    margin-top: 30%;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+
+.proyectos {
+    font-family: "Poly";
+    font-size: 45px;
+    margin-left: 5.6%;
+}
+.sw {
+    font-family: inherit;
+    color: var(--aguamarina);
+    letter-spacing: -4px;
+}
+
+.apps {
+    font-family: inherit;
+    color: var(--morado);
+    letter-spacing: -4px;
+}
+
+.otros {
+    font-family: inherit;
+    color: var(--verde);
+    letter-spacing: -4px;
+}
+
+.descripcion {
+    height: 857px;
+    background-image: url("img/stain2.svg"), url("img/stain3.svg");
+    background-position: left, right bottom;
+    background-repeat: no-repeat;
+    background-size: 20%, 9%;
+    margin: 0;
+}
+
+.pol {
+    height: 90px;
+    display: inline;
+    margin-top: 150px;
+}
+
+.descriPoly {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: var(--gris);
+}
+
+hr {
+    margin-top: 200px;
+    margin-left: 48vw;
+    margin-right: 48vw;
+    border: 3px solid var(--aguamarina);
+    border-radius: 25px;
+    
+}
